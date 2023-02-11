@@ -8,7 +8,7 @@ import Newsletter from './components/Newsletter';
 
 function App() {
   return (
-    <div className=' xl:bg-white md:bg-white max-sm:bg-black'>
+    <div className=' xl:bg-white md:bg-white max-md:bg-black'>
       <Navbar />
       <Hero />
       <Analytics />

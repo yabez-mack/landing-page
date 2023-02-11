@@ -8,15 +8,15 @@ const Hero = () => {
         <p className='text-blue-500 font-bold p-2'>
           GROWING WITH DATA ANALYTICS
         </p>
-        <h1 className='text-black md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 max-sm:text-white'>
+        <h1 className='text-black md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 max-md:text-white'>
           Grow with data.
         </h1>
-        <div className='flex justify-center items-center text-black max-sm:text-white'>
+        <div className='flex justify-center items-center text-black max-md:text-white'>
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
             Fast, flexible financing for
           </p>
           <Typed
-          className=' text-black md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 max-sm:text-white'
+          className=' text-black md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 max-md:text-white'
             strings={['BTB', 'BTC', 'SASS']}
             typeSpeed={120}
             backSpeed={140}
